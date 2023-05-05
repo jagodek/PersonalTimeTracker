@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#timeout{
+    border: none;
+    font-size: 50px;
+    max-width: 100px;
+    padding: 20px;
+    background-color: rgb(184, 248, 184);
+}
+#timeout:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+#timeout::placeholder{
+    color: blue;
+
+}
