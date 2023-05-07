@@ -5,11 +5,12 @@
 }
 
 #timeout{
+    display: inline;
     border: none;
     font-size: 50px;
-    max-width: 100px;
     padding: 20px;
     background-color: rgb(184, 248, 184);
+    text-align: right;
 }
 #timeout:focus{
     box-shadow: none;
@@ -19,4 +20,15 @@
 #timeout::placeholder{
     color: blue;
 
+}
+
+.myButton{
+    color: #fff;
+    background-color: darkgoldenrod;
+    margin: 20px 10px;
+    padding: 30px;
+}
+
+#startButton{
+    background-color: #398f39;
 }
