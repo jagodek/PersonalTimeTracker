@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michał Godek">
     <title>PersonalTimeTracker</title>
-    <link rel="icon" href="/resources/favicon.ico">
+    <link rel="icon" href="./resources/favicon.ico">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,14 +15,21 @@
         <li>
             Chcę jakiejś fajniejszej logiki za timerem niż pauza start</li>
         <li>Przegląd godzin aktywności coś jakby heatmapa</li>
+        <li>zadania do wykonania</li>
     </ul>
-
+    <button id="testButton"> testButton </button>
     <label for="timeout" min="0"></label>
     <input type="text" id="timeout">
     <p id="countdownPlace"></p>
-    <button id="pauseButton" class="mainest">Pause</button>
-    <button id="startButton" class="mainest">Start</button>
-    <button id="stopButton" class="mainest">Stop</button>
+    <button class="favTime myButton" value="1">1m</button>
+    <button class="favTime myButton" value="25">25m</button>
+    <button class="favTime myButton" value="60">60m</button>
+    <br>
+    <button id="pauseButton" class="steering myButton">Pause</button>
+    <button id="startButton" class="steering myButton">Start</button>
+    <button id="stopButton" class="steering myButton">Stop</button>
+    <br>
+    <textarea id="notes" name="todo"  cols="30" rows="10"></textarea>
     
 </body>
 </html>
